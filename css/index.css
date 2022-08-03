@@ -1,0 +1,114 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #f1f1f1;
+}
+
+/* MAIN CSS */
+.vglasses__left {
+  background-color: white;
+  padding: 20px 40px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.vglasses__left .col-4 {
+  align-self: center;
+}
+.vglasses__items {
+  cursor: pointer;
+}
+
+.vglasses__right {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vglasses__model {
+  background-image: url("../img/model.jpg");
+  background-position: center top;
+  background-size: cover;
+  height: 600px;
+}
+
+.vglasses__model img {
+  position: absolute;
+  top: 32%;
+  left: -100px;
+  width: 238px;
+  height: 85px;
+  opacity: 0.9;
+  background-color: red;
+}
+@keyframes identifier {
+  0% {
+  }
+}
+
+.vglasses__card {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+.vglasses__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  color: white;
+  padding: 20px;
+  display: none;
+}
+
+#glasses {
+  transition: all 0.5s;
+}
+
+.btn-glass {
+  background-color: white !important;
+}
+.a.bg-light:focus,
+a.bg-light:hover,
+button.bg-light:focus,
+button.bg-light:hover {
+  background-color: white !important;
+  border: 3px solid red !important;
+}
+button:focus {
+  outline: none !important;
+}
+.justify-content-between {
+  position: relative !important;
+}
+/* .vglasses__model1 {
+  background-image: url("../img/model.jpg");
+  background-position: center top;
+  background-size: cover;
+  height: 600px;
+} */
+
+.vglasses__model1 img {
+  position: absolute;
+  top: 30%;
+  left: 737px;
+  width: 238px;
+  height: 85px;
+  opacity: 0.9;
+
+  animation: identifier 1s 1;
+}
+@keyframes identifier {
+  0% {
+    left: 120px;
+    opacity: 0;
+  }
+  0% {
+    left: 120px;
+    opacity: 0;
+  }
+  100% {
+    left: 737px;
+    opacity: 0.9;
+  }
+}
